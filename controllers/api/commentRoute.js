@@ -1,6 +1,6 @@
 const express = require('express');
-const Comment = require('../models/Comment');
-const isAuth = require('../middleware/auth');
+const Comment = require('../../models/comment');
+const isAuth = require('../../utils/auth');
 
 const router = express.Router();
 
